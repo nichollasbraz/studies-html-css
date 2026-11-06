@@ -1,0 +1,90 @@
+
+/* Estilos gerais */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+}
+
+/* Menu de navegação */
+
+nav {
+    background-color: #ffedaa;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteúdo principal */
+
+main {
+    background-color: #dc8888;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Anúncios */
+
+aside {
+    background-color: #eeb9ee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout para telas maiores que 600px */
+
+@media screen and (min-width: 600px) {
+
+    .colunas {
+        display: flex;
+    }
+
+    nav {
+        width: 25%;
+    }
+
+    main {
+        width: 60%;
+    }
+
+    aside {
+        width: 15%;
+    }
+
+}
+
+/* Layout para telas menores que 600px */
+
+@media screen and (max-width: 599px) {
+
+    nav,
+    main {
+        width: 100%;
+    }
+
+    aside {
+        display: none;
+    }
+
+}

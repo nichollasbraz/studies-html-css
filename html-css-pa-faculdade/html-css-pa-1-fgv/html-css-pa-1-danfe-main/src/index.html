@@ -1,12 +1,166 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilo.css">
-  <title>Questão</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DANFE NFC-e</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-  <script src="js/script.js"></script>
+
+    <main class="cupom">
+
+        <header class="cabecalho">
+
+    <svg class="icone-mercado"
+         xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 64 64"
+         width="48"
+         height="48"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+
+        <path d="M8 12h6l6 30h28l8-22H17"/>
+        <path d="M22 42l-3 6h31"/>
+        <circle cx="25" cy="55" r="3"/>
+        <circle cx="45" cy="55" r="3"/>
+
+    </svg>
+
+    <h1>SUPERMERCADO BOM PREÇO</h1>
+
+    <p>CNPJ: 12.345.678/0001-90</p>
+    <p>Inscrição Estadual: 123.456.789.112</p>
+    <p>Rua das Flores, 100 - Centro</p>
+    <p>Volta Redonda - RJ</p>
+
+</header>
+
+        <section class="identificacao">
+            <h2>DANFE NFC-e</h2>
+
+            <p>
+                Documento Auxiliar da Nota Fiscal de Consumidor Eletrônica
+            </p>
+
+            <p class="aviso">
+                Não permite aproveitamento de crédito de ICMS.
+            </p>
+        </section>
+
+        <section class="produtos">
+
+            <h3>Itens da compra</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Qtd.</th>
+                        <th>Unitário</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Arroz 5kg</td>
+                        <td>1</td>
+                        <td>25,00</td>
+                        <td>25,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>002</td>
+                        <td>Feijão 1kg</td>
+                        <td>2</td>
+                        <td>8,00</td>
+                        <td>16,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>003</td>
+                        <td>Óleo de soja</td>
+                        <td>2</td>
+                        <td>7,00</td>
+                        <td>14,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>004</td>
+                        <td>Açúcar 1kg</td>
+                        <td>1</td>
+                        <td>5,00</td>
+                        <td>5,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="resumo">
+
+            <h3>Resumo da compra</h3>
+
+            <p>
+                Quantidade de itens:
+                <strong>6</strong>
+            </p>
+
+            <p>
+                Desconto:
+                <strong>R$ 0,00</strong>
+            </p>
+
+            <p class="valor-total">
+                Valor total:
+                <strong>R$ 60,00</strong>
+            </p>
+
+        </section>
+
+        <section class="pagamento">
+
+            <h3>Forma de pagamento</h3>
+
+            <p>Dinheiro: R$ 100,00</p>
+            <p>Valor recebido: R$ 100,00</p>
+            <p>Troco: R$ 40,00</p>
+
+        </section>
+
+        <section class="informacoes">
+
+            <h3>Informações fiscais</h3>
+
+            <p>EMISSÃO NORMAL</p>
+            <p>Consulte pela Chave de Acesso em:</p>
+            <p>www.fazenda.rj.gov.br/nfce</p>
+
+            <p class="chave">
+                Chave de acesso:
+                3326 1234 5678 0001 9055 0001 0000 0000 1234 5678 9012
+            </p>
+
+            <p>Obrigado pela preferência!</p>
+
+        </section>
+
+        <footer class="rodape">
+            <p>Documento emitido em ambiente de demonstração.</p>
+        </footer>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
