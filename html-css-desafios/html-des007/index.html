@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" 
+    href="C:\Users\neigh\OneDrive\Documentos\ADS\Estudos\Estudos em HTML e CSS\html-css-studies\html-css-desafios\html-des002\imagens\favicon.ico">
+    <title>desafio 007</title>
+</head>
+<body>
+    <h1>desafio de imagens</h1>
+    <h2>imagem flexível</h2>
+    <p>
+        as imagens serão adaptadas automaticamente conforme as dimensões da página são alteradas,
+        em prol de melhor visibilidade e experiência de usuário.
+    </p>
+    <p>
+        faça um teste alterando o tamanho da aba e veja o resultado abaixo:
+    </p>
+    <picture>
+        <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png" alt="paisagem tamanho P">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png" alt="paisagem tamanho M">
+        <img src="imagens/paisagem-g.png" alt="paisagem tamanho G">
+    </picture>
+    <p>
+        legal!
+    </p>
+</body>
+</html>
